@@ -32,9 +32,13 @@ a, a:hover {
 header {
     background-color: #38AF90;
     color: var(--color-white);
-    min-height: 90px;
+    height: 90px;
+    width: 100%;
     display: flex;
     align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    margin-top: 0px;
 }   
 
 .nav-content {
@@ -62,7 +66,7 @@ header {
 }
 
 #news {
-    margin: 40px 0;
+    padding-top: 130px;
 }
 
 #news h2 {
@@ -90,6 +94,7 @@ header {
     flex-direction: column;
     align-items: flex-start; 
     padding: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .news-content-card h3{
     color: var(--primary-color);
@@ -159,6 +164,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 }
 
 .game-card img {
@@ -224,6 +230,7 @@ header {
     background-color: var(--color-card);
     padding: 30px 8px;
     border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .input-form  input {
