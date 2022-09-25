@@ -67,6 +67,7 @@ header {
 
 #news {
     padding-top: 130px;
+    padding-bottom: 40px;
 }
 
 #news h2 {
@@ -336,6 +337,10 @@ footer p {
     display: inline;
     display: flex;
     justify-content: flex-end;
+}
+
+#news {
+    padding-bottom: 56px;
 }
 
 #news h2 {
